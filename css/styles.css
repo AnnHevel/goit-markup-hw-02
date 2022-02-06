@@ -3,21 +3,52 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
+    
+    
 }
 body {
     font-family: Roboto, sans-serif; 
+    background-color: var(--primary-white-color);
+    
 }
 
+ul {
+    list-style-type: none;
+}
 
-.logo {
+.main-nav {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.02em;
+color: var(--title-text-color)
+
+}
+.primary-logo {
     color: var(--title-text-color);
  font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.9;
 letter-spacing: 0.03em;
+
 }
 
 .logo-accent {
     color: var(--accent-color);
+}
+.main-nav .current {
+    color: var(--accent-color);
+}
+.link {
+    text-decoration: none;
+}
+
+
+
+
+
+
+.button {
+    cursor: pointer;
 }
