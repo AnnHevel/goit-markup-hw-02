@@ -11,44 +11,60 @@ body {
     background-color: var(--primary-white-color);
     
 }
-
+.link {
+    text-decoration: none; 
+    color: var(--title-text-color);
+}
 ul {
     list-style-type: none;
 }
 
-.main-nav {
+.header {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
-letter-spacing: 0.02em;
-color: var(--title-text-color)
-
-}
-.primary-logo {
-    color: var(--title-text-color);
- font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.9;
-letter-spacing: 0.03em;
-
-}
+letter-spacing: 0.02em;}
 
 .logo-accent {
     color: var(--accent-color);
 }
+.primary-logo.logo-accent {
+    font-family: Raleway, sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.9;
+   letter-spacing: 0.03em; }
+
 .main-nav .current {
     color: var(--accent-color);
 }
-.link {
-    text-decoration: none;
+
+.contacts-header :hover, 
+.contacts-header :focus { color: var(--accent-color); }
+    
+.hero {
+    background-color: #2F303A;
 }
 
-
-
-
-
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 
 .button {
-    cursor: pointer;
+cursor: pointer;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+background-color: var(--accent-color);
+font-family: Roboto;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+color: #FFFFFF;
 }
