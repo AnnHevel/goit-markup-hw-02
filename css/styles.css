@@ -168,3 +168,28 @@ letter-spacing: 0.03em;
 text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
 }
+
+
+.filter-list-item :hover, 
+.filter-list-item :focus { background-color: var(--accent-color); color: var(--primary-white-color);}
+
+.filter-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+
+.image-filter-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.filter-position {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
