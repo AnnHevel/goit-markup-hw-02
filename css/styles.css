@@ -12,40 +12,48 @@ body {
     color: var(--primary-text-color);  
 }
 
-.link {
-    text-decoration: none; 
-    color: var(--title-text-color);
-}
 
 ul {
     list-style-type: none;
 }
 
-.header {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.4;
-letter-spacing: 0.02em;
-}
 
-
-.primary-logo.logo-accent {
+.primary-logo {
     font-family: Raleway, sans-serif;
    font-weight: 700;
    font-size: 26px;
    line-height: 1.9;
-   letter-spacing: 0.03em; }
-
+   letter-spacing: 0.03em;
+   color: var(--title-text-color);
+   text-decoration: none; 
+}
    .logo-accent {
     color: var(--accent-color);
 }
 
+.link {
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
 .main-nav .current {
     color: var(--accent-color);
 }
 
-.contacts-header :hover, 
-.contacts-header :focus { color: var(--accent-color); }
+.contacts-header-list :hover, 
+.contacts-header-list :focus { color: var(--accent-color); }
+
+.contacts-header {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+text-decoration: none;
+}
     
 .hero {
     background-color: #2F303A;
@@ -147,8 +155,8 @@ letter-spacing: 0.03em;
 text-decoration: none;
 color: var(--primary-white-color);
 }
-.footer-link :hover,
-.footer-link :focus {
+.footer-list-link :hover,
+.footer-list-link :focus {
     color: var(--accent-color);
 }
 
