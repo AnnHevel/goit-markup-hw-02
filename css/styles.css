@@ -23,17 +23,20 @@ ul {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
-letter-spacing: 0.02em;}
-
-.logo-accent {
-    color: var(--accent-color);
+letter-spacing: 0.02em;
 }
+
+
 .primary-logo.logo-accent {
     font-family: Raleway, sans-serif;
    font-weight: 700;
    font-size: 26px;
    line-height: 1.9;
    letter-spacing: 0.03em; }
+
+   .logo-accent {
+    color: var(--accent-color);
+}
 
 .main-nav .current {
     color: var(--accent-color);
@@ -67,4 +70,19 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+}
+
+.advantages-list-item {
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.advantages-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
